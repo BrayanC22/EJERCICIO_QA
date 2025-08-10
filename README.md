@@ -3,7 +3,7 @@
 ## AUTOMATIZACIÓN E2E 
 
 
-OPCIÓN 2 DE AUTOMATIZACIÓN E2E
+### OPCIÓN 2 DE AUTOMATIZACIÓN E2E
 
 
 Instrucciones:
@@ -16,7 +16,7 @@ Al finalizar el ejercicio se debe subir un archivo .zip o .rar con todos los emp
 - Debes crear un repositorio público en Github con todos los archivos generados y colocar la URL al repositorio en los comentarios de este ejercicio.
 
 
-Ejercicio:
+#### Ejercicio:
 
 
 Realizar una prueba funcional automatizada (Prueba E2E) de un flujo de compra en la página https://www.saucedemo.com/ que incluya:
@@ -31,7 +31,7 @@ Realizar una prueba funcional automatizada (Prueba E2E) de un flujo de compra en
 Recuerda que de las siguientes tres opciones sobre APIS, debes elegir y desarrollar solo una:
 
 
-OPCIÓN 2 DE APIS
+### OPCIÓN 2 DE APIS
 
 
 Instrucciones:
@@ -44,7 +44,7 @@ Al finalizar el ejercicio se debe subir un archivo .zip o .rar con todos los arc
 - Debes crear un repositorio público en Github con todos los archivos generados y colocar la URL al repositorio en los comentarios de este ejercicio.
 
 
-Ejercicio:
+#### Ejercicio:
 
 
 La página https://petstore.swagger.io/ proporciona la documentación sobre apis de una "PetStore".
