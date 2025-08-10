@@ -140,3 +140,7 @@ Para actualizar las dependencias del proyecto, puedes ejecutar:
 ```bash
 npm update
 ```
+
+## Conclusiones:
+
+El proyecto está diseñado para ser flexible y escalable, permitiendo agregar nuevas pruebas o adaptar la estructura a otros casos de uso. el proceso de integración de Cypress fue fluido. La configuración fue sencilla, y las pruebas de creación, consulta, actualización y filtrado por estado de las mascotas fueron fáciles de escribir y ejecutar. La flexibilidad de Cypress permitió que el flujo de pruebas fuera claro y robusto, haciendo que el proyecto fuera escalable para agregar más pruebas en el futuro. En general, el uso de Cypress resultó ser una herramienta poderosa para validar la API, y aunque hubo pequeños desafíos técnicos, la solución fue rápida y eficiente, lo que permitió completar el proyecto exitosamente.
