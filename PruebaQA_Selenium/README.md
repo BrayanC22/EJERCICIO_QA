@@ -16,68 +16,80 @@ El flujo de trabajo incluye:
 4. Completar el formulario de compra.
 5. Finalizar la compra hasta la confirmación de "GRACIAS POR SU PEDIDO".
 
+## Estructura del Proyecto
+
+La estructura del proyecto es la siguiente:
+
+```
+/PruebaQA_Selenium
+    ├── test_saucedemo.py         # Archivo principal que contiene el test automatizado
+    ├── saucedemo.py              # Contiene la implementación de la clase Saucedemo para la automatización
+    ├── config.py                 # Archivo para almacenar configuraciones como URL, usuario y contraseña
+    ├── requirements.txt          # Archivo que contiene las dependencias del proyecto (Selenium, WebDriver Manager)
+    ├── README.txt                # Este archivo con las instrucciones para ejecutar el proyecto
+    ├── conclusiones.txt          # Conclusiones y hallazgos sobre la ejecución del proyecto
+```
+
 ## Requisitos
 
-Asegúrate de tener instalados los siguientes componentes antes de ejecutar el proyecto:
+Antes de ejecutar el proyecto, asegúrate de tener las siguientes herramientas y configuraciones:
 
-1. Python 3.13.6: Asegúrate de que Python esté instalado en tu máquina. Si no lo tienes, puedes descargarlo desde aquí (https://www.python.org/downloads/).
-   - Ejecutar el cmd con el siguiente comando "python --version", con la finalidad de verificar que se haya instalado correctamente la version de python.
+1. **Python 3.13.6**:
+   - **Verifica la instalación**: Ejecuta el siguiente comando en CMD:
+     ```bash
+     python --version
+     ```
+     Si no está instalado, descárgalo desde [python.org](https://www.python.org/downloads/).
 
-2. Visual Studio Code (VS Code): Recomendado como entorno de desarrollo para escribir y ejecutar el código.
-   - Si no lo tienes instalado, descárgalo desde [Visual Studio Code]	(https://code.visualstudio.com/Download).
+2. **Visual Studio Code (VS Code)**:
+   - Recomendado para desarrollar y ejecutar los scripts.
+   - Puedes descargarlo desde [VS Code](https://code.visualstudio.com/Download).
 
-3. Selenium WebDriver: Necesario para la automatización de pruebas en el navegador.
-   - Este proyecto utiliza **Selenium WebDriver** y **WebDriver Manager** para manejar los controladores de navegador automáticamente.
-
-
-## Instalación de Dependencias
-
-Para ejecutar el proyecto, debes seguir estos pasos:
-
-    ### 1. Clonar el Repositorio desde GitHub
-
-
-Primero, descarga el repositorio en tu máquina local a través del Link del repositorio: "https://github.com/BrayanC22/EJERCICIO_QA.git" O si tiene git instalado abrir cmd y ejecutar el siguiente comando en la ruta deseada.
-
-	git clone https://github.com/BrayanC22/EJERCICIO_QA.git
-
+3. **Selenium WebDriver** y **WebDriver Manager**:
+   - Necesarios para automatizar las interacciones con el navegador. Se instalarán mediante el archivo `requirements.txt`.
 
 ## Instrucciones para la Ejecución
 
 1. **Clona el repositorio:**
 
+Para clonar el repositorio abrir un cmd en la ruta que desee clonar y ingrese el siguiente comando:
+
    ```bash
    git clone https://github.com/BrayanC22/EJERCICIO_QA.git
    ```
+O si no tiene git instalado descarga el proyecto completo desde el repositorio.
 
+```
+	https://github.com/BrayanC22/EJERCICIO_QA.git
+```
 
 2. **Instala las dependencias necesarias:**
 
-- Abrir el visual code y abrir el proyecto descargado para este ejercicio es: "PruebaQA_Selenium", luego pulsar las teclas "Control + ñ" para que se abra una terminal. 
+Abrir el visual code y abrir el proyecto descargado para este ejercicio es: "PruebaQA_Selenium".
+  
+Para instalar las dependencias necesarias, ejecuta el siguiente comando en la terminal de VS Code en caso de haberla cerrado abrirla con la combinación de teclas (Control + ñ):
 
-- Luego ejecutar el siguiente comando "pip install -r requirements.txt"
-	-- Selenium: Selenium es utilizado para automatizar las interacciones con el navegador. Si no lo tienes, se instalará con pip desde el archivo "requirements.txt" a través del siguiente comando.
+```bash
+pip install -r requirements.txt
+```
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+Este comando instalará todas las librerías necesarias, como **Selenium** y **WebDriver Manager**.
 
+## Instrucciones para la Ejecución
 
-3. **Ejecuta el script de prueba E2E:**
+### 1. Ejecutar el Script de Prueba E2E
 
-   Procedemos a ejecutar el comando bash, mediante la terminal en caso de haberla cerrado abrirla con la combinación de teclas (Control + ñ) del visual code
-    
-   Luego ejecuta el script de automatización con el siguiente comando:
+Una vez que hayas instalado todas las dependencias, puedes ejecutar el script de automatización con el siguiente comando en la terminal:
 
-   ```bash
-   python test_saucedemo.py
-   ```
+```bash
+python test_saucedemo.py
+```
 
-	Este comando ejecutará el flujo completo de la prueba automatizada, que incluye:
-	* Iniciar sesión en el sitio web.
-	* Agregar dos productos al carrito.
-	* Proceder al checkout y completar la compra.
-	* Verificar que el mensaje de confirmación de compra sea "THANK YOU FOR YOUR ORDER".
+Este comando ejecutará el flujo completo de la prueba automatizada, que incluye:
+1. Iniciar sesión en el sitio web.
+2. Agregar dos productos al carrito.
+3. Proceder al checkout y completar la compra.
+4. Verificar que el mensaje de confirmación de compra sea "THANK YOU FOR YOUR ORDER".
 
 
 ## Conclusiones
