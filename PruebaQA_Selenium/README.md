@@ -76,9 +76,6 @@ Primero, descarga el repositorio en tu máquina local a través del Link del rep
 	* Proceder al checkout y completar la compra.
 	* Verificar que el mensaje de confirmación de compra sea "THANK YOU FOR YOUR ORDER".
 
-## Reportes y Logs
-
-Los reportes generados y logs de ejecución se encuentran en la carpeta `logs/` (si aplica).
 
 ## Conclusiones
 
