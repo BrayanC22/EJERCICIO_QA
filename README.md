@@ -1,6 +1,6 @@
-Este proyecto contiene el desarrollo de dos ejercicios prácticos: uno sobre Automatización E2E y otro sobre APIS. 
+## Este proyecto contiene el desarrollo de dos ejercicios prácticos: uno sobre Automatización E2E y otro sobre APIS. 
 
-/********************************* AUTOMATIZACIÓN E2E **********************************************************/
+# AUTOMATIZACIÓN E2E 
 
 OPCIÓN 2 DE AUTOMATIZACIÓN E2E
 
@@ -21,7 +21,7 @@ Completar el formulario de compra
 Finalizar la compra hasta la confirmación: "GRACIAS POR SU PEDIDO"
 
 
-/*********************** APIS *****************************************************************/
+# APIS
 Recuerda que de las siguientes tres opciones sobre APIS, debes elegir y desarrollar solo una:
 
 OPCIÓN 2 DE APIS
