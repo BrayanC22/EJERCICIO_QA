@@ -1,7 +1,31 @@
+# README - Cypress PetStore API Tests
 
-# Cypress PetStore API Tests
+QA - Tester: Ing Brayan Calvopiña
+
+Fecha: 8/09/2025
+
+# Descripción del Proyecto
 
 Este proyecto tiene como objetivo ejecutar pruebas de integración usando **Cypress** en la **API de PetStore**. El proyecto valida las operaciones básicas de la API, como la creación de mascotas, la consulta de mascotas por ID, la actualización del estado de una mascota y la consulta de mascotas por estado.
+
+
+## Estructura del Proyecto
+
+Aquí te mostramos una descripción de los archivos y carpetas principales del proyecto:
+
+```
+/cypress
+    /integration
+        petstore.spec.js           # Archivo principal de las pruebas de la API de PetStore
+    /fixtures
+    /support
+        commands.js                # Comandos personalizados de Cypress, si es necesario
+    /plugins
+        index.js                   # Configuración de plugins de Cypress, si es necesario
+/cypress.config.js                 # Archivo de configuración principal de Cypress
+/package.json                     # Dependencias y scripts del proyecto
+README.md                         
+```
 
 ## Requisitos previos
 
@@ -50,24 +74,23 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu máquina:
 
 Ahora, sigue estos pasos para configurar y ejecutar las pruebas en Cypress en tu máquina, desde cero.
 
-### 1. Clonar el repositorio
+### 1. Clonar el repositorio o Descargar el proyecto
 
 Primero, necesitamos clonar el repositorio que contiene el proyecto de pruebas. Abre una terminal y ejecuta el siguiente comando:
 
 ```bash
-git clone https://github.com/tu_usuario/petstore-api-tests.git
+git clone https://github.com/BrayanC22/EJERCICIO_QA.git 
 ```
-
-Reemplaza `tu_usuario` con tu nombre de usuario de GitHub. Si no tienes acceso al repositorio, debes **crear un fork** o tener acceso al mismo.
+o si no cuentas con git, puedes descargar el proyecto directo desde el repositorio (https://github.com/BrayanC22/EJERCICIO_QA.git) y asi ejecutarlo de forma local, en este caso la "PruebaQA_Cypress". 
 
 ### 2. Navegar al directorio del proyecto
 
 Después de clonar el repositorio, navega al directorio del proyecto:
 
 ```bash
-cd petstore-api-tests
+cd PruebaQA_Cypress 
 ```
-
+* Reemplaza la ruta del directorio donde se encuentra descargado el proyecto 
 ### 3. Instalar las dependencias
 
 Ahora, necesitamos instalar las dependencias necesarias, que incluyen **Cypress** y otras herramientas. Ejecuta el siguiente comando en la terminal:
@@ -96,42 +119,8 @@ Ahora, ya puedes ejecutar las pruebas. Para hacerlo, simplemente ejecuta:
 npx cypress open
 ```
 
-Esto abrirá el **Test Runner** de Cypress, donde podrás ver las pruebas disponibles y ejecutar cada una de ellas de manera interactiva.
+Esto abrirá el **Test Runner** de Cypress, donde podrás ver las pruebas disponibles y ejecutar cada una de ellas de manera interactiva, en este caso encontrar en la pestaña de "run" del navegador que se abrio y encontraras un archivo ".spec.js" que tendra la ejecucion de pruebas y se podra validar su funcionamiento.
 
-- **Ejecutar en modo interactivo:** Cypress abrirá una ventana en el navegador donde podrás hacer clic en las pruebas para ver sus resultados en tiempo real.
-
-### 6. Ejecutar las pruebas en modo headless (opcional)
-
-Si prefieres ejecutar las pruebas en **modo headless** (sin interfaz gráfica), puedes usar el siguiente comando:
-
-```bash
-npx cypress run
-```
-
-Este comando ejecutará todas las pruebas de manera automática en segundo plano y mostrará los resultados directamente en la terminal.
-
----
-
-## Estructura del Proyecto
-
-Aquí te mostramos una descripción de los archivos y carpetas principales del proyecto:
-
-```
-/cypress
-    /integration
-        petstore.spec.js           # Archivo principal de las pruebas de la API de PetStore
-    /fixtures
-        example.json               # Archivo de datos de prueba, si es necesario
-    /support
-        commands.js                # Comandos personalizados de Cypress, si es necesario
-    /plugins
-        index.js                   # Configuración de plugins de Cypress, si es necesario
-/cypress.json                     # Archivo de configuración principal de Cypress
-/package.json                     # Dependencias y scripts del proyecto
-README.md                         # Este archivo
-```
-
----
 
 ## Información adicional
 
@@ -143,32 +132,11 @@ Si deseas agregar nuevas pruebas a la API de PetStore:
 2. Crea un nuevo archivo `.spec.js` para tu prueba.
 3. Escribe tus pruebas siguiendo el mismo formato que se usa en `petstore.spec.js`.
 
-### Personalizar Cypress
 
-Si necesitas personalizar la configuración de Cypress, puedes editar el archivo `cypress.json` o agregar comandos personalizados en `commands.js` dentro de la carpeta `/cypress/support/`.
-
-### Actualización de dependencias
+### Actualización de dependencias de ser necesario (Opcional)
 
 Para actualizar las dependencias del proyecto, puedes ejecutar:
 
 ```bash
 npm update
 ```
-
----
-
-## Contribuciones
-
-Si deseas contribuir al proyecto, por favor sigue estos pasos:
-
-1. Realiza un **fork** del repositorio.
-2. Crea una nueva rama (`git checkout -b feature/mi-nueva-caracteristica`).
-3. Realiza los cambios y haz commit (`git commit -am 'Añadir nueva característica'`).
-4. Empuja los cambios (`git push origin feature/mi-nueva-caracteristica`).
-5. Crea un **pull request** desde tu fork a la rama principal del repositorio.
-
----
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
