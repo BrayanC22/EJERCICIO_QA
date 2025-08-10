@@ -1,6 +1,6 @@
-## Este proyecto contiene el desarrollo de dos ejercicios prácticos: uno sobre Automatización E2E y otro sobre APIS. 
+# Este proyecto contiene el desarrollo de dos ejercicios prácticos: uno sobre Automatización E2E y otro sobre APIS. 
 
-# AUTOMATIZACIÓN E2E 
+## AUTOMATIZACIÓN E2E 
 
 OPCIÓN 2 DE AUTOMATIZACIÓN E2E
 
@@ -14,14 +14,14 @@ Debes crear un repositorio público en Github con todos los archivos generados y
 
 Ejercicio:
 Realizar una prueba funcional automatizada (Prueba E2E) de un flujo de compra en la página https://www.saucedemo.com/ que incluya:
-Autenticarse con el usuario: standard_user y password: secret_sauce
-Agregar dos productos al carrito
-Visualizar el carrito
-Completar el formulario de compra
-Finalizar la compra hasta la confirmación: "GRACIAS POR SU PEDIDO"
+- Autenticarse con el usuario: standard_user y password: secret_sauce
+- Agregar dos productos al carrito
+- Visualizar el carrito
+- Completar el formulario de compra
+- Finalizar la compra hasta la confirmación: "GRACIAS POR SU PEDIDO"
 
 
-# APIS
+## APIS
 Recuerda que de las siguientes tres opciones sobre APIS, debes elegir y desarrollar solo una:
 
 OPCIÓN 2 DE APIS
@@ -35,7 +35,7 @@ Ejercicio:
 La página https://petstore.swagger.io/ proporciona la documentación sobre apis de una "PetStore".
 Utilizando un software para pruebas de servicios REST realizar las siguientes pruebas, identificando las entradas, capturando las salidas, test, variables, etc, en cada uno de los siguientes casos:
 
-Añadir una mascota a la tienda
-Consultar la mascota ingresada previamente (Búsqueda por ID)
-Actualizar el nombre de la mascota y el estatus de la mascota a "sold"
-Consultar la mascota modificada por estatus (Búsqueda por estatus)
+- Añadir una mascota a la tienda
+- Consultar la mascota ingresada previamente (Búsqueda por ID)
+- Actualizar el nombre de la mascota y el estatus de la mascota a "sold"
+- Consultar la mascota modificada por estatus (Búsqueda por estatus)
