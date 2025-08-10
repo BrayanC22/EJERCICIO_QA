@@ -64,7 +64,9 @@ Primero, descarga el repositorio en tu máquina local a través del Link del rep
 
 3. **Ejecuta el script de prueba E2E:**
 
-   Ejecuta el script de automatización con el siguiente comando:
+   Procedemos a ejecutar el comando bash, mediante la terminal en caso de haberla cerrado abrirla con la combinación de teclas (Control + ñ) del visual code
+    
+   Luego ejecuta el script de automatización con el siguiente comando:
 
    ```bash
    python test_saucedemo.py
