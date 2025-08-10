@@ -1,6 +1,7 @@
 # README - Automatización E2E - Saucedemo
 
 QA - Tester: Ing Brayan Calvopiña
+
 Fecha: 8/09/2025
 
 ## Descripción del Proyecto
