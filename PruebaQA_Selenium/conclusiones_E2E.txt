@@ -1,0 +1,17 @@
+QA - Tester: Ing Brayan Calvopiña
+Fecha: 8/09/2025
+
+## Conclusiones
+
+**Hallazgos**:
+- La automatización del flujo de compra en Saucedemo fue exitosa.
+- El problema principal fue la alerta de Google sobre el cambio de contraseña, que bloqueaba la ejecución del test. Este fue solucionado utilizando el modo incógnito e el navegador.
+- Todos los pasos fueron completados con éxito: login, agregar productos al carrito, checkout y confirmación de compra.
+
+**Lecciones Aprendidas**:
+- Asegurarse de gestionar correctamente las alertas del navegador es crucial para la estabilidad de las pruebas.
+- El uso de **WebDriver Manager** simplifica la configuración y manejo de los controladores de navegador.
+
+**Mejoras o Ajustes**:
+- Incorporar más validaciones en cada paso para garantizar que los elementos estén correctamente disponibles antes de la interacción.
+- Mejorar el manejo de excepciones en caso de fallos imprevistos.
