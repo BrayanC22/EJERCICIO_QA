@@ -1,0 +1,13 @@
+
+## Conclusiones
+
+**Hallazgos**:
+- Las pruebas de API para el registro e inicio de sesión se ejecutaron correctamente.
+- Las respuestas de la API fueron válidas y consistentes, tanto para los casos correctos como para los incorrectos.
+
+**Lecciones Aprendidas**:
+- Es importante gestionar correctamente las respuestas de error de la API para pruebas de validación.
+- Usar **pytest** facilita la ejecución y organización de pruebas.
+
+**Mejoras o Ajustes**:
+- Considerar agregar más casos de prueba para manejar escenarios de validación más complejos, como la autenticación de usuario con otros métodos o la validación de contraseñas.
